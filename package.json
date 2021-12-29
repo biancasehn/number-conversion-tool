@@ -1,0 +1,16 @@
+{
+  "name": "DN",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nConversion.js",
+  "scripts": {
+    "start": "node nConversion.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
