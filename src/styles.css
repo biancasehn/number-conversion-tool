@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(226, 228, 231, 0.2);
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+    color: #653BC9;
+    text-shadow: 5px 5px 0 #f6f6f6;
+    line-height: 1.5em;
+}
+
+.container {
+    margin: 2em;
+    padding: 2em;
+
+    width: 30vw;
+    min-height: 80vh;
+
+    text-align: center;
+    overflow-wrap: break-word;
+
+    background-color: #FFF;
+    box-shadow: #32325d40 0px 2px 5px -1px, #0000004d 0px 1px 3px -1px;
+}
+
+@media (max-width: 1000px) {
+    .container {    
+        width: 70vw;
+    }
+}
+
+#inputContainer input {
+    margin-top: 4em;
+    padding: 1em;
+
+    width: 20vw;
+
+    box-shadow: rgba(0, 0, 0, 0.363) 1px 2px 4px 0px inset;
+    border: none;
+    outline: none;
+
+    font-family: 'Varela Round', sans-serif;
+}
+
+@media (max-width: 769px) {
+    #inputContainer input {    
+        width: 40vw;
+    }
+
+    h1 {
+        line-height: 1.2em;
+        font-size: 1.5em;
+    }
+}
+
+button {
+    margin-top: 0.3em;
+    padding: 1em;
+
+    background: #653BC9;
+    color: #FFF;
+
+    cursor: pointer;
+    border: none;
+    box-shadow: 10px 10px 0 #f6f6f6;
+
+    font-family: 'Varela Round', sans-serif;
+}
+
+#numberConverted {
+    line-height: 1.8em;
+    padding: 2em;
+}

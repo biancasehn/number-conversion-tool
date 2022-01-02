@@ -8,6 +8,6 @@ inputForm.onsubmit = (e) => {
   e.preventDefault();
   const number = inputValue.value
   inputValue.value = ''
-  return (numberConverted.innerHTML = `<span>${number}</span>
-    <p class="numberConverted">${nConversion(number)}</p>`);
+  return (numberConverted.innerHTML = `<p>${number}</p>
+    <h2>${nConversion(number)}</h2>`);
 };
