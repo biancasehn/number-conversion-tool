@@ -5,6 +5,6 @@
 * npm
 
 ## Commands
-* npm install
+* npm install <br/>
 For testing:
 * npm run test
