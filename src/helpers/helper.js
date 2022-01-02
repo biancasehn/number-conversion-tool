@@ -1,4 +1,4 @@
-const WORDS = require("../constants/WORDS");
+import WORDS from "../constants/WORDS.js"
 
 const splitInput = (input) => {
   return input
@@ -44,4 +44,4 @@ const hundred = (input) => {
   return input[1] != 0 || input[2] != 0 ? `and ${tens(input.slice(-2))}` : "";
 };
 
-module.exports = { unit, tens, hundred, splitInput };
+export { unit, tens, hundred, splitInput };

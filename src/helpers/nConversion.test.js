@@ -1,5 +1,5 @@
 const { test } = require('@jest/globals')
-const nConversion = require('./nConversion')
+import nConversion from './nConversion'
 
 test('testing number words', () => {
     expect(nConversion(7)).toBe("seven")

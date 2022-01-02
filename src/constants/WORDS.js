@@ -42,4 +42,4 @@ const WORDS = {
     },
   };
 
-  module.exports = WORDS;
+export default WORDS;

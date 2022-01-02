@@ -1,12 +1,12 @@
-const WORDS = require("./constants/WORDS");
-const { unit, tens, hundred, splitInput } = require("./helpers/helper");
+import WORDS from "../constants/WORDS.js"
+import { unit, tens, hundred, splitInput } from "./helper.js";
 
-function nConversion(n) {
-  const input = n.toString().split("");
+function nConversion(inputValue) {
+  const input = inputValue.toString().split("");
   const splittedArray = splitInput(input)
 
-  if (1100 <= n && n <= 1999) {
-    return hundred(n.toString());
+  if (1100 <= inputValue && inputValue <= 1999) {
+    return hundred(inputValue.toString());
   } else {
     return splittedArray.reduce((accumulator, subArray, index) => {
       if (subArray.length === 1) {
@@ -22,9 +22,9 @@ function nConversion(n) {
           ? `${hundred(subArray)} ${WORDS.unitIndex[index]} ${accumulator}`.trimEnd()
           : accumulator;
       }
-      return accumulator;
+      return accumulator
     }, "");
   }
 }
 
-module.exports = nConversion;
+export default nConversion;

@@ -1,16 +1,27 @@
 {
   "name": "DN",
   "version": "1.0.0",
-  "description": "",
-  "main": "nConversion.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node nConversion.js",
     "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-env": "^7.16.7",
+    "babel-jest": "^27.4.5",
     "jest": "^27.4.5"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biancasehn/number-conversion-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/biancasehn/number-conversion-tool/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/biancasehn/number-conversion-tool#readme",
+  "description": ""
 }
