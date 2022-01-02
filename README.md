@@ -1,4 +1,4 @@
-# number-conversion-tool
+# ARABIC NUMBER CONVERSION TOOL
 Go to the app: https://biancasehn.github.io/number-conversion-tool/
 
 ## Requirements
